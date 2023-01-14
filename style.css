@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff4e50 0%, #f9d423 100%);
+
+  }
+  h1 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 1.3em;
+    margin: 0 70px;
+    text-allign:center;
+
+  }
+
+   .lienProjet a {
+    display: inline-block;
+    background: linear-gradient(to right, #00b5e2, #00f7e7);
+    color: #fff;
+    font-size: 16px;
+    padding: 1em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .lienProjet a:hover {
+    background-color: #0052cc;
+    background: linear-gradient(to right,#7b68ee, #6a5acd);
+    padding: 1.2em 2.2em;
+  }
+ 
+}
+
+nav{
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #ff4e50 0%, #f9d423 100%);
+  position: sticky;
+  top: 0px;
+  font-size: 1.5em;
+}
+
+ }
+ nav ul {
+  list-style-type: none;
+ }
+ nav li{
+  font-size: 1.2em;
+  float: left;
+  width: 23%;
+  text-align: center;
+  list-style-type: none;
+ }
+ nav ul::after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+ nav a{
+  display: block;
+  text-decoration: none;
+  color: wheat;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+ }
+nav a:hover{
+  color: #FCFAC7;
+  border-bottom: 2px solid gold;
+transform: rotate(-3deg) skewX(2deg) ;
+}
+.credits li {
+  list-style-type: none;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 100px;
+}
+.don{
+  font-size: 1.2em;
+  margin-top: 100px;
+}
+.don p{
+font-size: 1em;
+}
+.don a{
+    display: inline-block;
+    background: linear-gradient(to right, #00b5e2, #00f7e7);
+    color: #fff;
+    font-size: 15px;
+    padding: 1em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+  .don a:hover {
+    background-color: #0052cc;
+    background: linear-gradient(to right,#7b68ee, #6a5acd);
+    padding: 1.2em 2.2em;
+    
+  }
+
+
+.dark-mode {
+    
+    background: linear-gradient(to right, #00b19f 0%, #062bdc 100%);
+
+}
+.Paypal_button a {
+  background: transparent;
+
+}
+.Paypal_button a:hover{
+  background: transparent;
+}
